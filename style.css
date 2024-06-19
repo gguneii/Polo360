@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: linear-gradient(to bottom, #ddd, #fcfcfc, #fff, #fff);
+  text-align: center;
+  padding: 27px 0 24px 0;
+}
+
+nav {
+  padding: 22px 0 0 0;
+}
+nav ul li {
+  margin: auto;
+  list-style: none;
+  padding: 0 11px 8px 11px;
+  font: 0.7em Tahoma, sans-serif;
+}
+nav li a {
+  display: block;
+  font: bold 0.9rem Georgia, serif;
+  text-transform: uppercase;
+  color: #666;
+}
+main {
+  background: #fff url("img/mainbg.jpg") repeat-x;
+  padding: 22px 0 0 0;
+}
+main h1 {
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Georgia";
+  text-align: center;
+  padding: 15px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+#slider {
+  background-image: url("img/slide1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 340px;
+  border: 1px solid #c6c6c6;
+  border-radius: 7px;
+}
+.col3 img {
+  width: 100%;
+}
+.row {
+  padding: 24px 0;
+}
+.col3 {
+  padding: 12px;
+}
+.row h2 {
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: #11719e;
+  font-family: "Georgia";
+}
+.row h6 {
+  font-size: 12px;
+  color: #8c8c8c;
+  font-family: "Helvetica";
+}
+.row .img {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 6px;
+  background: #f3f3f3;
+  margin: 15px 0;
+}
+.row p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  color: #3e3e3e;
+  font-family: "Helvetica";
+  text-align: justify;
+}
+
+.row .btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 20px;
+  margin: 20px 0 0 0;
+  text-align: left;
+  border: 1px solid;
+  width: 160px;
+  height: 30px;
+  font: 0.8em Helvetica;
+  border-color: #d8d8d8;
+}
+.col3 .btn1{
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+    color: #235a9d;
+    border-color: #d8d8d8;
+}
+.row .btn span {
+  float: right;
+}
+.icons img {
+  width: 15%;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.col3 h3 {
+  font-size: 18px;
+  line-height: 14px;
+  color: #444444;
+  font-family: "Georgia";
+  padding: 15px 0;
+  border-bottom: 2px dashed #e5e5e5;
+}
+
+.col3 p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #444444;
+  font-family: "Helvetica";
+  padding: 10px 0;
+}
+.col3 h5 {
+  font-size: 18px;
+  line-height: 14px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Gill Sans";
+  margin-top: 20px;
+  border-bottom: 2px dashed #e5e5e5;
+  padding: 15px 0;
+}
+form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid #cfcfcf;
+    margin-top: 10px;
+}
+.col3 .btn2{
+    border-color: #004a80;
+    color: #fff;
+    background: linear-gradient(to right, #31669b, #3d76b4, #306193);
+}
+form textarea{
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    border:1px solid #cfcfcf;
+    border-radius: 5px;
+}
+.col3 .row1 img{
+ width: 60px;
+ border: 1px solid #e1e1e1;
+ border-radius: 4px;
+ padding: 6px;
+ background: #f3f3f3;
+}
+.col3 .row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px dashed #e5e5e5;
+  padding: 13px 0;
+}
+.row1 p{
+width: 333px;
+height: 57px;
+font-size: 12px;
+line-height: 14px;
+color: #444444;
+font-family: "Helvetica";
+margin-left: 15px;
+}
+footer {
+  height: 183px;
+  background: #333;
+  border-top: 10px solid #4c4c4c;
+}
+footer p{
+font-size: 11px;
+line-height: 10px;
+color: #999999;
+font-family: "Helvetica";
+padding: 5px;
+}
+.ending{
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    text-align: initial;
+  }
+  nav {
+    float: right;
+  }
+  .container {
+    padding: 0 100px 0 100px;
+  }
+  nav ul li {
+    display: inline-block;
+    border-left: 1px dotted #d6d6d6;
+  }
+  .row {
+    display: flex;
+  }
+  .row .col3 {
+    width: 33.3%;
+  }
+  .left-side{
+    float: left;
+  }
+  .right-side{
+    float: right;
+  }
+  .ending{
+    margin-top: 15px;
+  }
+}
